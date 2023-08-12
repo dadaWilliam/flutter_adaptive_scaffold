@@ -337,11 +337,13 @@ class AdaptiveScaffold extends StatefulWidget {
                     IconTheme.of(context).copyWith(size: iconSize);
               }),
             ),
-            child: NavigationBar(
-              selectedIndex: currentIndex ?? 0,
-              destinations: destinations,
-              onDestinationSelected: onDestinationSelected,
-            ));
+            child: MediaQuery(
+                data: MediaQuery.of(context).removePadding(removeTop: true),
+                child: NavigationBar(
+                  selectedIndex: currentIndex ?? 0,
+                  destinations: destinations,
+                  onDestinationSelected: onDestinationSelected,
+                )));
       },
     );
   }
