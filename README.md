@@ -1,6 +1,7 @@
 <?code-excerpt path-base="example/lib"?>
 
-# Adaptive Scaffold Fixed version by dadaWilliam
+# Adaptive Scaffold 
+## Fixed version by dadaWilliam
 
 `AdaptiveScaffold` reacts to input from users, devices and screen elements and
 renders your Flutter application according to the
@@ -248,5 +249,4 @@ Both of the examples shown here produce the same output:
 You can find more information on this package and its usage in the public
 [design doc](https://docs.google.com/document/d/1qhrpTWYs5f67X8v32NCCNTRMIjSrVHuaMEFAul-Q_Ms/edit?usp=sharing).
 # flutter_adaptive_scaffold
-# flutter_adaptive_scaffold
-# flutter_adaptive_scaffold
+
