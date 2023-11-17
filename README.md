@@ -1,6 +1,6 @@
 <?code-excerpt path-base="example/lib"?>
 
-# Adaptive Scaffold
+# Adaptive Scaffold Fixed version by dadaWilliam
 
 `AdaptiveScaffold` reacts to input from users, devices and screen elements and
 renders your Flutter application according to the
